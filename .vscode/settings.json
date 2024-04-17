@@ -1,0 +1,13 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "javascript.preferences.quoteStyle": "single",
+    "prettier.documentSelectors": ["**/*.m?{j,t}s", "**/*.jsonc?"],
+    "typescript.preferences.quoteStyle": "single",
+    "eslint.lintTask.options": ". -c eslint.config-typescript.js",
+    "eslint.experimental.useFlatConfig": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}

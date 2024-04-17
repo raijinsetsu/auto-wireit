@@ -1,0 +1,12 @@
+{
+    "extends": "@tsconfig/node20/tsconfig.json",
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "incremental": true,
+        "sourceMap": true
+    },
+    "include": ["*.ts"]
+}
