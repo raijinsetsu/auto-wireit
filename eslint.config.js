@@ -8,6 +8,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 
 const config = tseslint.config(
+    {
+        ignores: ['eslint.config.js', 'jest-config.js', 'lint-staged.config.js', 'node_modules/**'],
+    },
     eslint.configs.recommended,
     ...tseslint.configs.recommendedTypeChecked,
     {
